@@ -109,10 +109,10 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="title" class="step" data-x="-500" data-y="-500" data-scale="4">
-        <h1><strong>RTOS</strong></h1>
-        <span class="subtitle">Real Time Operating System</span><br />
-        <span class="author"><img alt="weibo" style="border-width:0" src="img/weibo.png" /><a rel='weibo' href='http://weibo.com/dreamflyforever'>杨善锦at思必驰</a>信息科技</span><br />
+    <div id="title" class="step" data-x="-1500" data-y="-1500" data-scale="4">
+        <h1><strong>GIT</strong></h1>
+        <span class="subtitle">代码托管和研发协作平台</span><br />
+        <span class="author"><img alt="weibo" style="border-width:0" src="img/weibo.png" /><a rel='weibo' href='http://weibo.com/dreamflyforever'>杨善锦at普渡</a>科技</span><br />
         <span class="cc">本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/">知识共享署名-相同方式共享 3.0 中国大陆许可协议</a>进行许可。<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/cn/88x31.png" /></a></span>
     </div>
 
@@ -124,14 +124,17 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="its" class="step" data-x="10850" data-y="3000" data-rotate="90" data-scale="5">
-        <p><strong>RTOS & LINUX 区别</strong> <br/>
-	<li>使用场景</li>
-	<li>硬件需求</li>
+    <div id="its" class="step" data-x="11050" data-y="4100" data-rotate="90" data-scale="5">
+        <p><strong>基本使用</strong> <br/>
+	<li>git config --global user.name "Your Name"</li>
+	<li>git config --global user.email "sjyangv0@gmail.com"</li>
+	<li>git add spec.txt</li>
+	<li>git commit -s</li>
+	<li>git push origin master</li>
     </div>
 
     <div id="big" class="step" data-x="3500" data-y="4100" data-rotate="180" data-scale="6">
-        <p>商用中 <b>？</b> <span class="thoughts">如何选择</span></p>
+        <p>高频<b>？</b> <span class="thoughts">命令</span></p>
     </div>
 
     <!--
@@ -166,35 +169,34 @@
         
     -->
     <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <li>根据场景</li>
-        <li>是否商用过</li>
-        <li>价格</li>
-        <li>是否可驾驭</li>
-        <li>应用</li>
+        <li>git commit -s --amend</li>
+        <li>git checkout file_name</li>
+        <li>git checkout hash-commit / git reset --hard</li>
+        <li>git branch -r / git checkout name</li>
+        <li>ssh-keygen -t rsa -C "sjyangv0@gmail.com" -f ~/.ssh/id_rsa</li>
     </div>
 
     <div id="imagination" class="step" data-x="8700" data-y="-300" data-scale="6">
-        <h1>语音包所需软件库</h1>
-        <li>websocket</li>
-        <li>speex-ogg</li>
-        <li>cjson</li>
-        <li>http</li>
+        <h1>还有</h1>
+        <li>git branch branch-name</li>
+        <li> git checkout branch-name</li>
+        <li>git remote -v</li>
+        <li>git pull origin branch-name / git fetch origin branch-name</li>
+	<li>gitk / tig </li>
     </div>
 
-    <div id="crash-code" class="step normal-2" data-x="700" data-y="-1300" data-rotate="-90" data-scale="1">
-        <h1>aispeech-rtos芯片的特点</h1>
-        <li>便宜</li>
-        <li>内置wifi</li>
-        <li>内存小</li>
-        <li>运行速度慢</li>
-	<li>(支持的芯片：rtl8711, wm302, wm300, esp32, vbs6100, at3503, mt7686
-支持的rtos：rt-thread， freertos， mico， zephyr)</li>
+    <div id="crash-code" class="step normal-2" data-x="1500" data-y="-3000" data-rotate="-90" data-scale="1">
+        <h1>高级&实用</h1>
+        <li>git cherry-pick branch_name_hash</li>
+        <li>git format-patch 365a..4e16</li>
+        <li>git am --signoff patch</li>
+        <li>git clone . ../copy; make; ./run</li>
     </div>
 
     <div id="how-to-learn" class="step" data-x="16300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>如何学习RTOS</p>
+        <p>如何学习git</p>
         <q><a href="http://github.com/dreamflyforever/fos">use the source</a>, Man!</q>
-        <p>跑一个看看!</p>
+        <p>多实践</p>
     </div>
 
     <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
